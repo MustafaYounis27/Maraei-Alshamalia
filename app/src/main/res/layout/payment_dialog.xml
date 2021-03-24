@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="50dp"
+    android:id="@+id/bottom_container"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_method"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="15dp"
+            />
+
+        <Button
+            android:id="@+id/online_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:background="@drawable/un_selected_button"
+            android:text="@string/online_payment"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            />
+
+        <Button
+            android:id="@+id/bank_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:background="@drawable/un_selected_button"
+            android:text="@string/bank_transfer"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            />
+
+        <Button
+            android:id="@+id/cash_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:background="@drawable/un_selected_button"
+            android:text="@string/cash_payment"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

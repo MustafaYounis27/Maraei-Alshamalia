@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@mipmap/profile"
+        />
+
+    <item
+        android:id="@+id/favouritesFragment"
+        android:title="@string/favourite"
+        android:icon="@mipmap/favo"
+        />
+
+    <item
+        android:id="@+id/offersFragment"
+        android:title="@string/offer"
+        android:icon="@mipmap/offers"
+        />
+
+    <item
+        android:id="@+id/walletFragment"
+        android:title="@string/wallet"
+        android:icon="@mipmap/wallet"
+        />
+
+    <item
+        android:id="@+id/languageFragment"
+        android:title="@string/language"
+        android:icon="@mipmap/language"
+        />
+
+    <item
+        android:id="@+id/contactUsFragment"
+        android:title="@string/complaints_and_suggestions"
+        android:icon="@mipmap/suggetions"
+        />
+
+    <item
+        android:id="@+id/asksFragment"
+        android:title="@string/ask"
+        android:icon="@mipmap/fqt"
+        />
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="@string/about"
+        android:icon="@mipmap/about"
+        />
+
+    <item
+        android:id="@+id/termsFragment"
+        android:title="@string/terms"
+        android:icon="@mipmap/rules"
+        />
+
+</menu>
